@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+main .table_db {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(166, 113, 154);
+}
+main .table_db .searchData {
+  width: 50rem;
+  height: 2rem;
+}
+main .table_db .date_div {
+  display: flex;
+  align-items: center;
+  width: 50rem;
+  height: 2rem;
+}
+main .table_db .date_div input {
+  margin-left: 0.5rem;
+}
+main .table_db .date_div label {
+  font-weight: bold;
+}
+main .table_db .date_div .endLabel {
+  margin-left: 1rem;
+}
+main .table_db .date_div #dateSearch_btn {
+  width: 3rem;
+  height: 1.5rem;
+  margin-left: 1rem;
+}
+main .table_db .date_div #dateSearch_btn:hover {
+  cursor: pointer;
+}
+main .table_db .db_div {
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 50rem;
+  height: 15rem;
+  background-color: darkgrey;
+}
+main .table_db .db_div table {
+  width: 100%;
+}
+main .table_db .db_div table thead {
+  background-color: cadetblue;
+  position: sticky;
+  top: 0;
+}
+main .table_db .db_div table tbody {
+  background-color: aliceblue;
+}
+
+/*# sourceMappingURL=WS3006.css.map */

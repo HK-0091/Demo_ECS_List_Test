@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        script(src="https://code.jquery.com/jquery-latest.min.js")
+        link(rel="stylesheet" href="./css/WS3005.css")
+        title WS3005 Document Pug
+    body 
+        div(class="basic_box")
+            input(id="client_orderNo" type="number" placeholder="orderNo")
+            input(id="client_items" type="text" placeholder="items")
+            input(id="client_itemNo" type="number" placeholder="itemNo")
+            input(id="client_lotNo" type="text" placeholder="lotNo")
+            input(id="client_productDate" type="date" placeholder="productDate")
+            input(id="client_containerNo" type="number" placeholder="containerNo")
+            button(id="client_send") SEND
+        script(src="./js/WS3005.js")

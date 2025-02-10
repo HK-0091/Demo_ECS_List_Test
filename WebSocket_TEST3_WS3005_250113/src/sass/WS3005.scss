@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+}
+.basic_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50rem;
+    input {
+        width: 6rem;
+        background-color: white;
+        height: 1rem;
+        text-align: center;
+    }
+    #client_send{
+        height: 1.2rem;
+        width: 5rem;
+        background-color: blueviolet;
+        color: white;
+    }
+}

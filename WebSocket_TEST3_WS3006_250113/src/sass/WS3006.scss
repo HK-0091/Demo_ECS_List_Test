@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+
+    .table_db {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(166, 113, 154);
+        .searchData {
+            width: 50rem;
+            height: 2rem;
+        }
+        .date_div {
+            display: flex;
+            align-items: center;
+            width: 50rem;
+            height: 2rem;
+            input{
+                margin-left: 0.5rem;
+            }
+            label{
+                font-weight: bold;
+            }
+            .endLabel {
+                margin-left: 1rem;
+            }
+
+            #dateSearch_btn {
+                width: 3rem;
+                height: 1.5rem;
+                margin-left: 1rem;
+            }
+            #dateSearch_btn:hover{
+                cursor: pointer;
+            }
+        }
+
+        .db_div {
+            overflow: scroll;
+            overflow-x: hidden;
+            width: 50rem;
+            height: 15rem;
+            background-color: darkgrey;
+
+            table {
+                width: 100%;
+
+                thead {
+                    background-color: cadetblue;
+                    //stiky top 필수
+                    position: sticky;
+                    top: 0;
+                }
+
+                tbody {
+                    background-color: aliceblue;
+                }
+            }
+        }
+    }
+}
